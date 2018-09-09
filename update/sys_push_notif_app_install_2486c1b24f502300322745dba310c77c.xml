@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_push_notif_app_install">
+    <sys_push_notif_app_install action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <last_registered_on>2018-09-06 02:30:34</last_registered_on>
+        <sys_class_name>sys_push_notif_app_install</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-09-05 23:03:11</sys_created_on>
+        <sys_id>2486c1b24f502300322745dba310c77c</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>5eac6233183ea96066430ce40494c780549e14a88c519f8f3957da24084d63bd</sys_name>
+        <sys_package display_value="NFL League" source="x_18270_nfl_league">e0c2852e4f902300322745dba310c769</sys_package>
+        <sys_policy/>
+        <sys_push_application_id display_value="ServiceNow Mobile Application">ab704041ff1102009738ffffffffff33</sys_push_application_id>
+        <sys_push_platform_id display_value="Apple">20e71f30ff0002009738ffffffffff6b</sys_push_platform_id>
+        <sys_scope display_value="NFL League">e0c2852e4f902300322745dba310c769</sys_scope>
+        <sys_update_name>sys_push_notif_app_install_2486c1b24f502300322745dba310c77c</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-09-06 02:30:34</sys_updated_on>
+        <sys_user_id display_value="System Administrator">6816f79cc0a8016401c5a33be04be441</sys_user_id>
+        <token>5eac6233183ea96066430ce40494c780549e14a88c519f8f3957da24084d63bd</token>
+    </sys_push_notif_app_install>
+</record_update>

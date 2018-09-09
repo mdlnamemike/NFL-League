@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Bowlers" max_length="40" name="x_18270_nfl_league_bowlers" type="collection">
+        <element label="Name" max_length="40" name="name" type="string"/>
+        <element label="Team" max_length="32" name="team" reference="x_18270_nfl_league_teams" type="reference"/>
+        <index name="index">
+            <element name="team"/>
+        </index>
+    </element>
+</database>

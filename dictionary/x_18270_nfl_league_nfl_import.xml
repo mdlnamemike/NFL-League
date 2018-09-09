@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element extends="sys_import_set_row" label="NFL Import" max_length="40" name="x_18270_nfl_league_nfl_import" type="collection">
+        <element attributes="import_attribute_name=Lane" label="Lane" max_length="40" name="u_lane" type="integer"/>
+        <element attributes="import_attribute_name=Team,edge_encryption_enabled=true" label="Team" max_length="40" name="u_team" type="string"/>
+        <element attributes="import_attribute_name=Total" label="Total" max_length="40" name="u_total" type="integer"/>
+        <element attributes="import_attribute_name=Week" label="Week" max_length="40" name="u_week" type="integer"/>
+        <element attributes="import_attribute_name=WON" label="WON" max_length="40" name="u_won" type="integer"/>
+        <element attributes="import_attribute_name=-1-" label="-1-" max_length="40" name="u__1_" type="integer"/>
+        <element attributes="import_attribute_name=-2-" label="-2-" max_length="40" name="u__2_" type="integer"/>
+        <element attributes="import_attribute_name=-3-" label="-3-" max_length="40" name="u__3_" type="integer"/>
+        <element attributes="import_attribute_name=-4-" label="-4-" max_length="40" name="u__4_" type="integer"/>
+    </element>
+</database>

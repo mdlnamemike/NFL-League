@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Scores" max_length="40" name="x_18270_nfl_league_scores" type="collection">
+        <element label="Game 1" max_length="4" name="game_1" type="string"/>
+        <element label="Game 2" max_length="4" name="game_2" type="string"/>
+        <element label="Game 3" max_length="4" name="game_3" type="string"/>
+        <element label="Game 4" max_length="4" name="game_4" type="string"/>
+        <element choice="1" label="Lane" max_length="40" name="lane" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="01" value="01"/>
+                <element inactive_on_update="false" label="02" value="02"/>
+                <element inactive_on_update="false" label="03" value="03"/>
+                <element inactive_on_update="false" label="04" value="04"/>
+                <element inactive_on_update="false" label="05" value="05"/>
+                <element inactive_on_update="false" label="06" value="06"/>
+                <element inactive_on_update="false" label="07" value="07"/>
+                <element inactive_on_update="false" label="08" value="08"/>
+                <element inactive_on_update="false" label="09" value="09"/>
+                <element inactive_on_update="false" label="10" value="10"/>
+                <element inactive_on_update="false" label="11" value="11"/>
+                <element inactive_on_update="false" label="12" value="12"/>
+                <element inactive_on_update="false" label="13" value="13"/>
+                <element inactive_on_update="false" label="14" value="14"/>
+                <element inactive_on_update="false" label="15" value="15"/>
+                <element inactive_on_update="false" label="16" value="16"/>
+                <element inactive_on_update="false" label="17" value="17"/>
+                <element inactive_on_update="false" label="18" value="18"/>
+                <element inactive_on_update="false" label="19" value="19"/>
+                <element inactive_on_update="false" label="20" value="20"/>
+                <element inactive_on_update="false" label="21" value="21"/>
+                <element inactive_on_update="false" label="22" value="22"/>
+                <element inactive_on_update="false" label="23" value="23"/>
+                <element inactive_on_update="false" label="24" value="24"/>
+                <element inactive_on_update="false" label="25" value="25"/>
+                <element inactive_on_update="false" label="26" value="26"/>
+                <element inactive_on_update="false" label="27" value="27"/>
+                <element inactive_on_update="false" label="28" value="28"/>
+                <element inactive_on_update="false" label="29" value="29"/>
+                <element inactive_on_update="false" label="30" value="30"/>
+                <element inactive_on_update="false" label="31" value="31"/>
+                <element inactive_on_update="false" label="32" value="32"/>
+                <element inactive_on_update="false" label="1" sequence="0" value="1"/>
+                <element inactive_on_update="false" label="2" sequence="0" value="2"/>
+                <element inactive_on_update="false" label="3" sequence="0" value="3"/>
+                <element inactive_on_update="false" label="4" sequence="0" value="4"/>
+                <element inactive_on_update="false" label="5" sequence="0" value="5"/>
+                <element inactive_on_update="false" label="6" sequence="0" value="6"/>
+                <element inactive_on_update="false" label="7" sequence="0" value="7"/>
+                <element inactive_on_update="false" label="8" sequence="0" value="8"/>
+                <element inactive_on_update="false" label="9" sequence="0" value="9"/>
+            </choice>
+        </element>
+        <element label="Series" max_length="40" name="series" type="string"/>
+        <element label="Team" max_length="32" name="team" reference="x_18270_nfl_league_teams" reference_qual="team_nameSTARTSWITH^sys_idSTARTSWITH^EQ" reference_qual_condition="team_nameSTARTSWITH^sys_idSTARTSWITH^EQ" type="reference"/>
+        <element choice="3" default="1" label="Week" max_length="40" name="week" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="1" value="1"/>
+                <element inactive_on_update="false" label="10" value="10"/>
+                <element inactive_on_update="false" label="11" value="11"/>
+                <element inactive_on_update="false" label="12" value="12"/>
+                <element inactive_on_update="false" label="13" value="13"/>
+                <element inactive_on_update="false" label="14" value="14"/>
+                <element inactive_on_update="false" label="15" value="15"/>
+                <element inactive_on_update="false" label="16" value="16"/>
+                <element inactive_on_update="false" label="17" value="17"/>
+                <element inactive_on_update="false" label="18" value="18"/>
+                <element inactive_on_update="false" label="19" value="19"/>
+                <element inactive_on_update="false" label="2" value="2"/>
+                <element inactive_on_update="false" label="20" value="20"/>
+                <element inactive_on_update="false" label="21" value="21"/>
+                <element inactive_on_update="false" label="22" value="22"/>
+                <element inactive_on_update="false" label="23" value="23"/>
+                <element inactive_on_update="false" label="24" value="24"/>
+                <element inactive_on_update="false" label="25" value="25"/>
+                <element inactive_on_update="false" label="26" value="26"/>
+                <element inactive_on_update="false" label="27" value="27"/>
+                <element inactive_on_update="false" label="28" value="28"/>
+                <element inactive_on_update="false" label="29" value="29"/>
+                <element inactive_on_update="false" label="3" value="3"/>
+                <element inactive_on_update="false" label="30" value="30"/>
+                <element inactive_on_update="false" label="31" value="31"/>
+                <element inactive_on_update="false" label="32" value="32"/>
+                <element inactive_on_update="false" label="33" value="33"/>
+                <element inactive_on_update="false" label="34" value="34"/>
+                <element inactive_on_update="false" label="35" value="35"/>
+                <element inactive_on_update="false" label="4" value="4"/>
+                <element inactive_on_update="false" label="5" value="5"/>
+                <element inactive_on_update="false" label="6" value="6"/>
+                <element inactive_on_update="false" label="7" value="7"/>
+                <element inactive_on_update="false" label="8" value="8"/>
+                <element inactive_on_update="false" label="9" value="9"/>
+            </choice>
+        </element>
+        <element label="Won" max_length="40" name="won" type="boolean"/>
+        <index name="index">
+            <element name="team"/>
+        </index>
+    </element>
+</database>

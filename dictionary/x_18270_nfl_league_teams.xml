@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Teams" max_length="40" name="x_18270_nfl_league_teams" type="collection">
+        <element choice="3" default="afc" label="Conference" max_length="40" name="conference" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="AFC" value="afc"/>
+                <element inactive_on_update="false" label="NFC" value="nfc"/>
+            </choice>
+        </element>
+        <element choice="1" label="Division" max_length="40" name="division" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="AFC - East" value="ae"/>
+                <element inactive_on_update="false" label="AFC - North" value="an"/>
+                <element inactive_on_update="false" label="AFC - South" value="as"/>
+                <element inactive_on_update="false" label="AFC - West" value="aw"/>
+                <element inactive_on_update="false" label="NFC - East" value="ne"/>
+                <element inactive_on_update="false" label="NFC - North" value="nn"/>
+                <element inactive_on_update="false" label="NFC - South" value="ns"/>
+                <element inactive_on_update="false" label="NFC - West" value="nw"/>
+            </choice>
+        </element>
+        <element label="Team #" max_length="2" name="team" type="string"/>
+        <element display="true" label="Team Name" max_length="40" name="team_name" type="string"/>
+    </element>
+</database>
